@@ -5,3 +5,8 @@
 build/
 dist/
 *.egg-info/
+
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
