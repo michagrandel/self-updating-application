@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "self-updating-application"
-version = "1.0.0"
+version = "1.1.0"
 authors = [
   { name="Your Name", email="you@example.com" },
 ]
@@ -22,8 +22,10 @@ dependencies = [
 ]
 
 [project.urls]
-"Homepage" = "https://github.com/pypa/sampleproject"
-"Bug Tracker" = "https://github.com/pypa/sampleproject/issues"
+"Homepage" = "https://github.com/michagrandel/self-updating-application"
+"Bug Tracker" = "https://github.com/michagrandel/self-updating-application"
+"Repository" = "https://github.com/michagrandel/self-updating-application"
 
 [project.scripts]
-self-updating-application = "selfupdatingapplication.main:app"
+hello = "selfupdatingapplication.main:app"
+info = "selfupdatingapplication.info:main"
