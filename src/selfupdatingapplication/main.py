@@ -2,7 +2,9 @@ import typer
 from rich import print
 import os
 
-__version__ = "1.1.0"
+from selfupdatingapplication.update_check import check_for_updates
+
+__version__ = "1.2.0"
 
 app = typer.Typer()
 
@@ -24,7 +26,7 @@ def main(
     """
     A simple self-updating application.
     """
-    pass
+    check_for_updates()
 
 @app.command()
 def hello():
