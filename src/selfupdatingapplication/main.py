@@ -4,7 +4,7 @@ import os
 
 from selfupdatingapplication.update_check import check_for_updates
 
-__version__ = "1.1.0"
+__version__ = "1.2.0"
 
 app = typer.Typer()
 
